@@ -35,7 +35,7 @@ dependencies {
 	implementation 'com.google.code.gson:gson:2.8.2'
 	compileOnly group: 'org.hibernate.javax.persistence', name: 'hibernate-jpa-2.1-api', version: '1.0.0.Final'
 	compileOnly group: 'javax.validation', name: 'validation-api', version: '1.0.0.GA'
-	testImplementation 'junit:junit:4.12', 'xmlunit:xmlunit:1.6'
+	testImplementation 'junit:junit:4.13.2', 'xmlunit:xmlunit:1.6'
 }
 
 sourceSets.main.java.srcDirs = ['src/main/java', 'src/generated/java']
